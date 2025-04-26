@@ -1,9 +1,11 @@
-import ProfileViewPage from '@/features/profile/components/profile-view-page';
-
 export const metadata = {
   title: 'Dashboard : Profile'
 };
 
 export default async function Page() {
-  return <ProfileViewPage />;
+  return (
+    <div className=''>
+      <h1>Attempting a Bloody coup</h1>
+    </div>
+  );
 }
