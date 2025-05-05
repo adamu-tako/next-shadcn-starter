@@ -14,6 +14,15 @@ const nextConfig = {
       }
     ]
   },
+  async redirects() {
+    return [
+      {
+        source: '/login',
+        destination: '/auth/login',
+        permanent: true
+      }
+    ];
+  },
   transpilePackages: ['geist']
 };
 
